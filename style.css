@@ -1,0 +1,70 @@
+.body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border: 1px solid gray;
+}
+header {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  /* margin-left: 30px;
+  margin-top: 10px;
+  */
+  padding: 20px;
+}
+.navsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 50px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  background-color: #262626;
+  width: 170px;
+  border: 1px solid white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li:hover {
+  background-color: crimson;
+  transition: all ease-in 0.5s;
+}
+.navbar ul ul {
+  display: none;
+}
+.navbar ul li:hover > ul {
+  display: block;
+}
